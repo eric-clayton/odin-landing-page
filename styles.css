@@ -141,3 +141,12 @@ figure img {
     border-radius: 5px;
     padding: 5px 20px;
 }
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: var(--dark-background);
+    color: var(--hero-secondary-text-color);
+    font-family: sans-serif;
+}
