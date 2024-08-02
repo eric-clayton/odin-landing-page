@@ -10,7 +10,7 @@
     --information-header-text: 800 36px sans-serif ;
     --information-header-text-color: #1F2937;
     --quote-section-background: #E5E7EB;
-    --quote-text: 36px sans-serif 300 italic;
+    --quote-text: 300 italic 36px sans-serif ;
     --quote-text-color: #1F2937;
 }
 * {
@@ -73,7 +73,7 @@ nav li {
     height: 250px;
 }
 .testimonials {
-    padding: 20px;
+    padding: 80px 20px;
 }
 .testimonials h3 {
     font: var(--information-header-text);
@@ -100,4 +100,19 @@ figure img {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+    background-color: var(--quote-section-background);
+    font: var(--quote-text);
+    color: var(--quote-text-color);
+}
+.thor {
+    font-weight: bold;
+    text-align: right;
+}
+.quote-container {
+    width: 850px
 }
