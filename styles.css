@@ -1,0 +1,39 @@
+:root {
+    --dark-background: #1F2937;
+    --hero-main-text: 800 48px sans-serif;
+    --hero-main-text-color: #f9faf8;
+    --hero-secondary-text: 18px sans-serif;
+    --hero-secondary-text-color: #E5E7EB;
+    --header-logo-text: bold 24px sans-serif;
+    --header-logo-text-color: #F9FAF8;
+    --cta-background-button: #3882F6;
+    --information-header-text: 36px extra-bold #1F2937;
+    --quote-section-background: #E5E7EB;
+    --quote-text: 36px sans-serif 300 italic;
+    --quote-text-color: #1F2937;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    color: var(--hero-secondary-text-color);
+    background: var(--dark-background);
+
+}
+header h1{
+    font: var(--header-logo-text);
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+nav li {
+    font: var(--hero-secondary-text);
+}
