@@ -37,3 +37,38 @@ nav ul{
 nav li {
     font: var(--hero-secondary-text);
 }
+.hero {
+    display: flex;
+    background: var(--dark-background);
+    justify-content: center;
+    gap: 70px;
+    padding: 100px 10px;
+}
+.hero-left {
+    width: 450px;
+}
+.hero-left h2 {
+    font: var(--hero-main-text);
+    color: var(--hero-main-text-color);
+}
+.hero-left p{
+    font: var(--hero-secondary-text);
+    color: var(--hero-secondary-text-color);
+    margin-bottom: 10px;
+}
+.hero-left button{
+    border-radius: 10px;
+    font: var(--hero-secondary-text);
+    font-weight: bold;
+    color: var(--hero-main-text-color);
+    background: var(--cta-background-button);
+    padding: 8px 30px;
+    border: none;
+}
+.hero-right {
+    width: 500px;
+}
+.hero img {
+    height: 250px;
+
+}
